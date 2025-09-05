@@ -351,8 +351,8 @@ Header
 **************/
 
 main{
-  height:calc(100vh -80px);
-  height: calc(100svh -80px);
+  height:calc(100vh - 80px);
+  height: calc(100svh - 80px);
   overflow:hidden;
 }
 
@@ -628,13 +628,21 @@ MEDIA QUERIES
     right: 20px;
   }
 
-  .header-actions{ gap:24px;}
+  .header-actions{
+    gap:24px;
+  }
 
-  .header .btn-primary { padding-inline:  16px 24px;}
+  .header .btn-primary {
+    padding-inline:  16px 24px;
+  }
 
-  .header .btn-primary .span { display: block;}
+  .header .btn-primary .span {
+    display: block;
+  }
 
-  .search-view { clip-path: circle(3% at calc(100% -273px) 6%);}
+  .search-view {
+    clip-path: circle(3% at calc(100% - 273px) 6%);
+  }
 
   main{
     height: calc(100vh - 96px);
